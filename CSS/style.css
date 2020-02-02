@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: bold 18px Helvetica, Arial, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.weatherForFiveDays {
+	margin: 20px auto;
+	width: 300px;
+	height: 484px;
+	border: 2px solid grey;
+	border-radius: 5px;
+}
+
+.currentWeather {
+	width: 100%;
+	height: 210px;
+	background-color: #44e744;;
+	border-radius-top-right: 4px;
+	border-radius-top-left: 4px;
+	padding: 5px;
+}
+
+select {
+	width: 40%;
+	height: 25px;
+	outline: none;
+	border-radius: 2px;
+}
+
+.currentTime {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.currentTemperature {
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.currentTemperature p {
+	margin-right: 5px;
+}
+
+.currentWindSpeed {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.currentWindDirection {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.currentWindDirection img,
+.currentTime img {
+	display: inline-block;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.result {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 54px;
+	border-top: 2px solid grey;
+	background-color: #f9f1f1;
+	font-size: 14px;
+	color: black;
+}
+
+.result span {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

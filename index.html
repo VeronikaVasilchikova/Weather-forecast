@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+		<title>Weather forecast</title>
+
+		<link rel="stylesheet" type="text/css" href="CSS/fontawesome-all.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+	</head>
+
+	<body>
+
+		<div id="weatherForFiveDays" class="weatherForFiveDays">
+
+			<div id="currentWeather" class="currentWeather">
+
+				<select>
+					<option>Choose a city</option>
+					<option value="Minsk">Minsk</option value="">
+					<option value="Kiev">Kiev</option>
+					<option value="Moscow">Moscow</option>
+					<option value="Vilnus">Vilnus</option>
+					<option value="Warsaw">Warsaw</option>
+					<option value="Tallinn">Tallinn</option>
+					<option value="Riga">Riga</option>
+				</select>
+
+				<div class="currentTime">
+					<img src="icons/clock.svg"/>
+					<p id="currentTime"></p>
+				</div>
+
+				<div id="currentTemperature" class="currentTemperature">
+					<p>Now</p>
+					<p class="currentTemp"></p>
+					<p>&#8451;</p>
+				</div>
+
+				<div class="currentWindSpeed">
+					<p>Wind speed is </p>
+					<p id="currentWindSpeed"></p>
+					<p>m/s</p>
+				</div>
+
+				<div class="currentWindDirection">
+					<img src="icons/compass.svg"/>
+					<p class="part"></p>
+					<p id="currentWindDirection"></p>
+					<p>deg</p>
+				</div>
+
+			</div>
+
+			<div id="results">
+
+			</div>
+
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
